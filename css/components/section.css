@@ -1,5 +1,8 @@
 /*Common to all sections*/
 
+.h2-section {
+  text-align: center;
+}
 
 .p-section {
   text-align: center;
@@ -13,22 +16,20 @@
 
 /*Offer section*/
 
-.tabs {
+#offer {
   padding-top: 4rem;
   padding-bottom: 2rem;
   background-color: var(--white);
 }
 
-.h2-section,
-
-.tabs .nav-tabs {
+#offer .nav-tabs {
   display: flex;
   justify-content: center;
   margin-bottom: 2.25rem;
   border-bottom: none;
 }
 
-.tabs .nav-link {
+#offer .nav-link {
   padding: 0.375rem 1rem 0.375rem 1rem;
   margin: 0 1rem;
   border-bottom: 2px solid var(--dark-blue) !important;
@@ -46,8 +47,8 @@
   transition: all 0.2s ease;
 }
 
-.tabs .nav-link:hover,
-.tabs .nav-link.active {
+#offer .nav-link:hover,
+#offer .nav-link.active {
   background: transparent;
   color: var(--violet) !important;
   border-bottom: 2px solid var(--violet) !important;
@@ -55,19 +56,21 @@
   border-bottom: ;
 }
 
-.tabs .nav-link .fas {
+#offer .nav-link .fas {
   margin-right: 1rem;
 }
 
-.tabs .text-container {
+#offer .text-container {
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.tabs .text-container h3 {
+#offer .text-container h3 {
+  color: var(--white);
   font-weight: 700 !important;
+  margin-bottom: 1rem;
 }
 
 .offer-frame {
@@ -77,7 +80,26 @@
   background-color: var(--dark-blue);
 }
 
-.a-propos {
+/*A propos*/
+
+#a-propos {
+  padding-top: 4rem;
+  padding-bottom: 2rem;
   background-color: var(--dark-blue);
-  height: 200px;
+}
+
+#a-propos .h2-section {
+  color: var(--white);
+}
+
+#a-propos .p-section {
+  color: var(--white);
+  opacity: 0.7;
+}
+
+#a-propos h3 {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+  color: var(--white);
 }
