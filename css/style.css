@@ -52,3 +52,32 @@ p {
   font-family: var(--text-font);
   margin: 0 !important;
 }
+
+.text-highlight {
+  position: relative;
+  z-index: 1;
+}
+
+.text-highlight:before {
+  content:"";
+/*  background-color: var(--dark-blue);*/
+  border-radius: 2px;
+  opacity: 0.8;
+  width:120%;
+  height:1.4em;
+  position:absolute;
+  left: -0.6rem;
+  top: -0.2rem;
+  z-index:-1;
+  transform: rotate(-1deg);
+}
+
+.highlight-blue:before {
+  background-color: var(--dark-blue);
+}
+
+.highlight-green:before {
+  background-color: var(--green);
+}
+
+

@@ -1,0 +1,83 @@
+/*Common to all sections*/
+
+
+.p-section {
+  text-align: center;
+}
+
+.p-section {
+  width: 70%;
+  margin: 0 auto 2rem auto !important;
+  opacity: 0.8;
+}
+
+/*Offer section*/
+
+.tabs {
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+  background-color: var(--white);
+}
+
+.h2-section,
+
+.tabs .nav-tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2.25rem;
+  border-bottom: none;
+}
+
+.tabs .nav-link {
+  padding: 0.375rem 1rem 0.375rem 1rem;
+  margin: 0 1rem;
+  border-bottom: 2px solid var(--dark-blue) !important;
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  color: var(--dark-blue);
+  font-family: var(--header-font);
+  opacity: 0.4;
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.tabs .nav-link:hover,
+.tabs .nav-link.active {
+  background: transparent;
+  color: var(--violet) !important;
+  border-bottom: 2px solid var(--violet) !important;
+  opacity: 1;
+  border-bottom: ;
+}
+
+.tabs .nav-link .fas {
+  margin-right: 1rem;
+}
+
+.tabs .text-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tabs .text-container h3 {
+  font-weight: 700 !important;
+}
+
+.offer-frame {
+  margin-top: -1px;
+  width: 100%;
+  height: 3.3rem;
+  background-color: var(--dark-blue);
+}
+
+.a-propos {
+  background-color: var(--dark-blue);
+  height: 200px;
+}
