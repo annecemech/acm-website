@@ -40,3 +40,7 @@
   background-color: var(--green);
   margin-right: 1rem;
 }
+
+.btn-tabs {
+  margin-top: 1rem;
+}
