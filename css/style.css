@@ -60,16 +60,24 @@ p {
 
 .text-highlight:before {
   content:"";
-/*  background-color: var(--dark-blue);*/
   border-radius: 2px;
-  opacity: 0.8;
-  width:120%;
-  height:1.4em;
+  width:110%;
+  height:1.5em;
   position:absolute;
-  left: -0.6rem;
+  left: -1.2rem;
   top: -0.2rem;
   z-index:-1;
   transform: rotate(-1deg);
+}
+
+.parcours-card .text-highlight:before {
+  width:120%;
+  left: -0.6rem;
+}
+
+.skills .text-highlight:before {
+  width:120%;
+  left: -0.6rem;
 }
 
 .highlight-blue:before {
