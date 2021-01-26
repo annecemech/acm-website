@@ -1,0 +1,42 @@
+.btn-outline-green {
+  display: inline-block;
+  margin-left: 2rem;
+  padding: 10px 25px !important;
+  border: 2px solid var(--green) !important;
+  border-radius: 5px !important;
+  background-color: transparent;
+  color: var(--green) !important;
+  text-decoration: none;
+  font-family: var(--header-font);
+  text-transform: uppercase;
+  font-weight: 700 !important;
+  transition: all 0.4s ease !important;
+}
+
+.btn-outline-green:hover {
+  background-color: var(--green);
+  color: var(--white) !important;
+  text-decoration: none;
+}
+
+.btn-all {
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 2px;
+  text-align: center;
+  padding: 12px 20px;
+  color: var(--white);
+  font-family: var(--text-font);
+  transition: transform 0.2s ease-in-out;
+}
+
+.btn-all:hover {
+  color: var(--white);
+  transform: scale(1.1);
+  transition: transform 1s ease-in-out;
+}
+
+.btn-green {
+  background-color: var(--green);
+  margin-right: 1rem;
+}

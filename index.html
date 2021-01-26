@@ -7,13 +7,199 @@
 
     <title>Anne-Cécile Méchin | Développeuse Web FullStack Ruby On Rails</title>
     <link rel="shortcut icon" href="data:image/x-icon;" type="image/x-icon">
-    <link href="styles/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
   </head>
   <body>
+    <div class="navbar navbar-expand-md my-navbar fixed-top">
+      <a class="navbar-brand" href="#">
+        <img src="images/acm-logo.svg" />
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon">
+            <i class="fas fa-bars"></i>
+        </span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Accueil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Prestations</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">A propos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Réalisations</a>
+          </li>
+          <li class="nav-item" id="nav-item-btn">
+            <a class="nav-link btn btn-outline-green" id="nav-btn" href="#"><i class="fas fa-paper-plane"></i> Demander un devis</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="banner">
+        <div class="banner-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <div class="text-container">
+                            <h1>Créatrice de sites web</h1>
+                            <h3>Je suis conceptrice-développeuse d'applications web à Bordeaux.</h3>
+                            <p class="p-large">Site vitrine, site e-commerce, web-app : je vous accompagne dans vos projets online, de la conception à la mise en ligne.</p>
+                            <a class="btn-all btn-green" href="#"><i class="fas fa-paper-plane"></i> Contactez-moi</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 d-none d-lg-block">
+                        <div class="image-container">
+                            <div class="img-wrapper">
+                                <img class="img-fluid" src="images/acm-logo.svg" alt="creation de sites web">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <svg class="banner-frame" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 0 0 288 1440"><path fill="#030940" fill-opacity="1" d="M0,32L120,37.3C240,43,480,53,720,48C960,43,1200,21,1320,10.7L1440,0L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path></svg>
+    <div id="features" class="tabs">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="above-heading">FEATURES</div>
+                    <h2 class="h2-heading">Marketing Automation</h2>
+                    <p class="p-heading">Take your business strategy to the next level and automatize your marketing tasks to save time for product development. Tivo can provide results in less than 2 weeks</p>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+            <div class="row">
+                <div class="col-lg-12">
 
+                    <!-- Tabs Links -->
+                    <ul class="nav nav-tabs" id="argoTabs" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="nav-tab-1" data-toggle="tab" href="#tab-1" role="tab" aria-controls="tab-1" aria-selected="true"><i class="fas fa-list"></i>List Builder</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="nav-tab-2" data-toggle="tab" href="#tab-2" role="tab" aria-controls="tab-2" aria-selected="false"><i class="fas fa-envelope-open-text"></i>Campaigns</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="nav-tab-3" data-toggle="tab" href="#tab-3" role="tab" aria-controls="tab-3" aria-selected="false"><i class="fas fa-chart-bar"></i>Analytics</a>
+                        </li>
+                    </ul>
+                    <!-- end of tabs links -->
+
+                    <!-- Tabs Content -->
+                    <div class="tab-content" id="argoTabsContent">
+
+                        <!-- Tab -->
+                        <div class="tab-pane fade active show" id="tab-1" role="tabpanel" aria-labelledby="tab-1">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="image-container">
+                                        <img class="img-fluid" src="images/features-1.png" alt="alternative">
+                                    </div> <!-- end of image-container -->
+                                </div> <!-- end of col -->
+                                <div class="col-lg-6">
+                                    <div class="text-container">
+                                        <h3>List Building Is Easier Than Ever</h3>
+                                        <p>It's very easy to start using Tivo. You just need to fill out and submit the <a class="blue page-scroll" href="sign-up.html">Sign Up Form</a> and you will receive access to the app and all of its features in no more than 24h.</p>
+                                        <ul class="list-unstyled li-space-lg">
+                                            <li class="media">
+                                                <i class="fas fa-square"></i>
+                                                <div class="media-body">Create and embed on websites newsletter sign up forms</div>
+                                            </li>
+                                            <li class="media">
+                                                <i class="fas fa-square"></i>
+                                                <div class="media-body">Manage forms and landing pages for your services</div>
+                                            </li>
+                                            <li class="media">
+                                                <i class="fas fa-square"></i>
+                                                <div class="media-body">Add and remove subscribers using the control panel</div>
+                                            </li>
+                                        </ul>
+                                        <a class="btn-solid-reg popup-with-move-anim" href="#details-lightbox-1">LIGHTBOX</a>
+                                    </div> <!-- end of text-container -->
+                                </div> <!-- end of col -->
+                            </div> <!-- end of row -->
+                        </div> <!-- end of tab-pane -->
+                        <!-- end of tab -->
+
+                        <!-- Tab -->
+                        <div class="tab-pane fade" id="tab-2" role="tabpanel" aria-labelledby="tab-2">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="image-container">
+                                        <img class="img-fluid" src="images/features-2.png" alt="alternative">
+                                    </div> <!-- end of image-container -->
+                                </div> <!-- end of col -->
+                                <div class="col-lg-6">
+                                    <div class="text-container">
+                                        <h3>Campaigns Monitoring Tools</h3>
+                                        <p>Campaigns monitoring is a feature we've developed since the beginning because it's at the core of Tivo and basically to any marketing activity focused on results.</p>
+                                        <ul class="list-unstyled li-space-lg">
+                                            <li class="media">
+                                                <i class="fas fa-square"></i>
+                                                <div class="media-body">Easily plan campaigns and schedule their starting date</div>
+                                            </li>
+                                            <li class="media">
+                                                <i class="fas fa-square"></i>
+                                                <div class="media-body">Start campaigns and follow their evolution closely</div>
+                                            </li>
+                                            <li class="media">
+                                                <i class="fas fa-square"></i>
+                                                <div class="media-body">Evaluate campaign results and optimize future actions</div>
+                                            </li>
+                                        </ul>
+                                        <a class="btn-solid-reg popup-with-move-anim" href="#details-lightbox-2">LIGHTBOX</a>
+                                    </div> <!-- end of text-container -->
+                                </div> <!-- end of col -->
+                            </div> <!-- end of row -->
+                        </div> <!-- end of tab-pane -->
+                        <!-- end of tab -->
+
+                        <!-- Tab -->
+                        <div class="tab-pane fade" id="tab-3" role="tabpanel" aria-labelledby="tab-3">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="image-container">
+                                        <img class="img-fluid" src="images/features-3.png" alt="alternative">
+                                    </div> <!-- end of image-container -->
+                                </div> <!-- end of col -->
+                                <div class="col-lg-6">
+                                    <div class="text-container">
+                                        <h3>Analytics Control Panel</h3>
+                                        <p>Analytics control  panel is important for every marketing team so it's beed implemented from the begging and designed to produce reports based on very little input information.</p>
+                                        <ul class="list-unstyled li-space-lg">
+                                            <li class="media">
+                                                <i class="fas fa-square"></i>
+                                                <div class="media-body">If you set it up correctly you will get acces to great intel</div>
+                                            </li>
+                                            <li class="media">
+                                                <i class="fas fa-square"></i>
+                                                <div class="media-body">Easy to integrate in your websites and landing pages</div>
+                                            </li>
+                                            <li class="media">
+                                                <i class="fas fa-square"></i>
+                                                <div class="media-body">The generated reports are important for your strategy</div>
+                                            </li>
+                                        </ul>
+                                        <a class="btn-solid-reg popup-with-move-anim" href="#details-lightbox-3">LIGHTBOX</a>
+                                    </div> <!-- end of text-container -->
+                                </div> <!-- end of col -->
+                            </div> <!-- end of row -->
+                        </div> <!-- end of tab-pane -->
+                        <!-- end of tab -->
+
+                    </div> <!-- end of tab content -->
+                    <!-- end of tabs content -->
+
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div>
     <!-- Including Bootstrap JS (with its Popper.js / jQuery dependency) -->
     <script src="javascript/javascript.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>

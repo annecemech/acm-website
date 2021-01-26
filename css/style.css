@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700;900&family=Oxygen:wght@300;400;700&family=PT+Serif:wght@400;700&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+/* Importing all components file */
+@import url("components/button.css");
+@import url("components/navbar.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+@import url("components/section.css");
+@import url("components/footer.css");
+
+:root {
+  --dark-blue: #030940;
+  --dark-blue-transparent: rgba(3,9,64,0.7);
+  --violet: #7175d8;
+  --green: #5fcba1 !important;
+  --pink: #fe6462;
+  --white: #fefefe;
+  --header-font: 'Fira Sans', sans-serif;
+  --text-font: 'PT Serif', serif;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+body {
+  background-color: #F9F9F9 !important;
+}
+
+h1 {
+  font-family: var(--header-font);
+  text-transform: uppercase;
+  font-weight: 700 !important;
+  color: var(--dark-blue);
+}
+
+h2 {
+  font-family: var(--header-font);
+  text-transform: uppercase;
+  font-weight: 700 !important;
+  color: var(--dark-blue);
+}
+
+h3 {
+  font-family: var(--header-font);
+  font-size: 1.5rem !important;
+  font-weight: 400 !important;
+  color: var(--violet);
+}
+
+p {
+  font-family: var(--text-font);
+  margin: 0 !important;
+}
