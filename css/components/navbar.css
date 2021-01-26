@@ -3,6 +3,11 @@
   background: transparent;
 }
 
+.my-navbar.navbar-scroll {
+  background-color: var(--dark-blue);
+  box-shadow: 1px 1px 10px rgba(0,0,0,0.2);
+}
+
 .my-navbar .navbar-collapse {
   flex-grow: 0;
   text-align: center;
