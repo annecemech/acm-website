@@ -27,3 +27,17 @@ window.addEventListener('scroll', function() {
   if (scrollPos >= navbarHeight) { add_class_on_scroll() }
   else { remove_class_on_scroll() }
 })
+
+// Show up button when scroll is bigger than 100vh
+
+const upBtn = document.getElementById('up-btn');
+
+window.addEventListener('scroll', function() {
+  scrollPos = window.scrollY;
+
+  const add_content_on_scroll = () => upBtn.classList.add("hidden");
+  const remove_content_on_scroll = () => upBtn.classList.remove("hidden");
+
+  if (scrollPos >= window.innerHeight) { remove_content_on_scroll() }
+  else { add_content_on_scroll() }
+})

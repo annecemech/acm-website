@@ -44,3 +44,26 @@
 .btn-tabs {
   margin-top: 1rem;
 }
+
+#up-btn a {
+  position: fixed;
+  bottom: 40px;
+  right: 20px;
+  font-size: 36px;
+  color: var(--violet);
+}
+
+#up-btn a:hover {
+  color: var(--violet);
+}
+
+.up-btn-content {
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.up-btn-content.hidden {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+

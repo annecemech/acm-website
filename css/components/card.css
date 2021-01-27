@@ -36,9 +36,16 @@
 
 /*Parcours card*/
 
+.parcours-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
 .parcours-card {
   position: relative;
   padding: 0;
+  margin-top: 1rem;
 }
 
 .parcours-card .parcours-card-title{
@@ -48,7 +55,7 @@
 }
 
 .parcours-card .parcours-card-title h3{
-  padding-right: 35px;
+  padding-right: 27px;
 }
 
 .parcours-card-text {
@@ -84,7 +91,7 @@
   background-repeat: no-repeat;
   background-clip: padding-box;
   background-size: cover;
-  border-radius: 2px;
+  border-radius: 5px;
 }
 
 .avatar-bordered {
@@ -100,63 +107,67 @@
 
 /*Skills card*/
 
-.card-skills {
-  min-height: 200px;
-  background: white;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+.skills-card {
+  padding: 0;
+  margin-top: 1rem;
+}
+
+.skills-card .skills-card-title{
   display: flex;
-  align-content: center;
-  border-radius: 2px;
-  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
 }
 
-.card-skills h3 {
-  min-height: 100%;
-  color: var(--white);
-  text-transform: uppercase;
-  margin: 0;
+.skills-card .skills-card-title h3{
+
 }
 
-.card-skills .card-skills-title {
-  background-color: var(--violet);
-  min-height: 100%;
+
+.skills-card-text {
+  padding: 15px 35px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.skills-card .skill {
   display: flex;
   align-items: center;
-  border-radius: 2px;
+  background-color: #F9F9F9;
+  border: 4px solid var(--white);
+  padding: 0.8rem 1.2rem;
+  border-radius: 40px;
+  box-shadow: 0px 1px 15px rgba(0,0,0,0.1);
+  margin-bottom: 1rem;
+  transition: all 0.3s ease;
 }
 
-.card-skills .card-skills-title .card-skills-title-content {
-  display: flex;
-  align-items: center;
-  padding: 0 0 0 16px;
+.skills-card .skill:hover {
+  transform: scale(1.1);
+  transform: rotate(-5deg);
+  transition: all 0.3s ease;
 }
 
-.card-skills .card-skills-title .card-skills-title-border {
-  min-height: 100%;
-  min-width: 90px;
-  background-color: white;
+.skills-card .skill img {
+  width: 20px;
+  max-height: 25px;
+}
+
+.skills-card-bottom {
+  height: 100px;
+  margin-top: -3rem;
   background-image: url("../../images/wave-skills-card.svg");
   background-repeat: no-repeat;
   background-clip: padding-box;
   background-size: cover;
-  border-radius: 2px;
-}
-
-.card-skills .card-skills-infos {
-  width: 100%;
-  padding: 16px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.card-skills .card-skills-infos .skill{
-  padding: 15px;
-  margin: 5px;
   border-radius: 5px;
   display: flex;
-  background-color: #ECECEC;
-  font-family: var(--text-font);
+  align-items: flex-end;
 }
 
+.skills-card i {
+  color: var(--white);
+  font-size: 40px;
+  margin-bottom: 1.2rem;
+  margin-left: 1.2rem;
+}

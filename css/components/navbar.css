@@ -28,13 +28,13 @@
   font-family: var(--header-font);
   text-transform: uppercase;
   margin: 0 0.9rem;
-  transition: border-bottom 0.3s ease;
+  transition: transform 0.3s ease;
   padding: 12px 0;
 }
 
 .my-navbar .nav-link:not(#nav-btn):hover {
-  border-bottom: 3px solid var(--green);
-  transition: border-bottom 0.3s ease;
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
 }
 
 .my-navbar .nav-item.active {

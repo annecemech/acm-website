@@ -11,12 +11,17 @@
 :root {
   --dark-blue: #030940;
   --dark-blue-transparent: rgba(3,9,64,0.7);
-  --violet: #7175d8;
+  --violet: #7175d8 !important;
   --green: #5fcba1 !important;
-  --pink: #fe6462;
-  --white: #fefefe;
+  --pink: #fe6462 !important;
+  --white: #fefefe !important;
   --header-font: 'Fira Sans', sans-serif;
   --text-font: 'PT Serif', serif;
+}
+
+
+html {
+  scroll-behavior: smooth;
 }
 
 a {
@@ -61,16 +66,21 @@ p {
 .text-highlight:before {
   content:"";
   border-radius: 2px;
-  width:110%;
-  height:1.5em;
+  min-width:110%;
+  height:120%;
   position:absolute;
-  left: -1.2rem;
+  left: -2%;
   top: -0.2rem;
   z-index:-1;
   transform: rotate(-1deg);
 }
 
 .parcours-card .text-highlight:before {
+  width:120%;
+  left: -0.6rem;
+}
+
+.skills-card .text-highlight:before {
   width:120%;
   left: -0.6rem;
 }
@@ -88,4 +98,37 @@ p {
   background-color: var(--green);
 }
 
+.highlighted-title {
+  position: relative;
+  overflow: hidden;
+}
 
+span.word-highlight {
+  position: relative;
+  z-index: 1;
+}
+
+span.word-highlight:after {
+/*  background-color: var(--green);*/
+  content: " ";
+  height: 35%;
+  position: absolute;
+  left: 0;
+  margin-left: -0.5rem;
+  top: 65%;
+  width: calc(100% + 1.1rem);
+  border-radius: 3px;
+  z-index: -1;
+}
+
+span.word-highlight.hg-green:after {
+  background-color: var(--green);
+}
+
+span.word-highlight.hg-pink:after {
+  background-color: var(--pink);
+}
+
+span.word-highlight.hg-dark-blue:after {
+  background-color: var(--dark-blue);
+}
