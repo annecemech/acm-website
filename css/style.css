@@ -9,6 +9,7 @@
 @import url("components/footer.css");
 @import url("components/tabs.css");
 @import url("components/cookies.css");
+@import url("components/formulaire.css");
 
 :root {
   --dark-blue: #030940;

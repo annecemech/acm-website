@@ -1,0 +1,36 @@
+#sib-form-container {
+  width: 100%;
+  display: flex;
+}
+
+#sib-container {
+  max-width: 780px !important;
+}
+
+#sib-container label {
+  font-family: var(--text-font) !important;
+  font-weight: 400 !important;
+}
+
+#sib-container input:-ms-input-placeholder {
+  text-align: left;
+  font-family: var(--text-font);
+  color: #c0ccda;
+}
+
+#sib-container input::placeholder {
+  text-align: left;
+  font-family: var(--text-font);
+  color: #c0ccda;
+}
+
+#sib-container textarea::placeholder {
+  text-align: left;
+  font-family: var(--text-font);
+  color: #c0ccda;
+}
+
+.sib-form {
+  display: flex;
+  justify-content: center;
+}
