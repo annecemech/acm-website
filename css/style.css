@@ -7,10 +7,12 @@
 @import url("components/card.css");
 @import url("components/section.css");
 @import url("components/footer.css");
+@import url("components/tabs.css");
+@import url("components/cookies.css");
 
 :root {
   --dark-blue: #030940;
-  --dark-blue-transparent: rgba(3,9,64,0.7);
+  --dark-blue-transparent: rgba(3,9,64,0.5);
   --violet: #7175d8 !important;
   --green: #5fcba1 !important;
   --pink: #fe6462 !important;
@@ -109,7 +111,6 @@ span.word-highlight {
 }
 
 span.word-highlight:after {
-/*  background-color: var(--green);*/
   content: " ";
   height: 35%;
   position: absolute;
