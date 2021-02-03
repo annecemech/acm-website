@@ -22,40 +22,6 @@
   background-color: var(--white);
 }
 
-#offer .nav-tabs {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 2.25rem;
-  border-bottom: none;
-}
-
-#offer .nav-link {
-  padding: 0.375rem 1rem 0.375rem 1rem;
-  margin: 0 1rem;
-  background-color: var(--green);
-  color: var(--white);
-  border-bottom: 3px solid var(--dark-blue) !important;
-  font-family: var(--header-font);
-  font-weight: 700;
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-  text-align: center;
-  text-decoration: none;
-  transition: all 0.2s ease;
-}
-
-#offer .nav-link:hover,
-#offer .nav-link.active {
-  background-color: var(--dark-blue);
-  color: var(--white) !important;
-  border-bottom: 3px solid var(--pink) !important;
-  opacity: 1;
-}
-
-#offer .nav-link .fas {
-  margin-right: 1rem;
-}
-
 #offer .text-container {
   height: 100%;
   display: flex;
