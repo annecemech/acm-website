@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700;900&family=Oxygen:wght@300;400;700&family=PT+Serif:wght@400;700&display=swap');
+@import url('href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500&family=Roboto:wght@300;400;700&display=swap');
 @import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
 /* Importing all components file */
 @import url("components/button.css");
@@ -11,6 +11,20 @@
 @import url("components/cookies.css");
 @import url("components/formulaire.css");
 
+@font-face {
+  font-family: 'Kollektif Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Kollektif Regular'), url('../fonts/Kollektif.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Kollektif Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Kollektif Bold'), url('../fonts/Kollektif-Bold.woff') format('woff');
+}
+
 :root {
   --dark-blue: #030940;
   --dark-blue-transparent: rgba(3,9,64,0.5);
@@ -18,8 +32,9 @@
   --green: #5fcba1 !important;
   --pink: #fe6462 !important;
   --white: #fefefe !important;
-  --header-font: 'Fira Sans', sans-serif;
-  --text-font: 'PT Serif', serif;
+  --header-font: 'Kollektif Regular', sans-serif;
+  --header-font-bold: 'Kollektif Bold', sans-serif;
+  --text-font: 'Roboto', sans-serif;
 }
 
 
@@ -37,28 +52,31 @@ body {
 
 h1 {
   font-family: var(--header-font);
-  text-transform: uppercase;
-  font-weight: 700 !important;
+  font-weight: 500 !important;
   color: var(--dark-blue);
 }
 
 h2 {
   font-family: var(--header-font);
-  text-transform: uppercase;
-  font-weight: 700 !important;
+  font-weight: 500 !important;
   color: var(--dark-blue);
 }
 
 h3 {
-  font-family: var(--header-font);
+  font-family: var(--text-font);
   font-size: 1.5rem !important;
-  font-weight: 400 !important;
+  font-weight: 300 !important;
   color: var(--violet);
+  letter-spacing: 1px;
 }
 
 p {
   font-family: var(--text-font);
   margin: 0 !important;
+}
+
+.text-green {
+  color: var(--green);
 }
 
 .text-highlight {
