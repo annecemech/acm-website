@@ -12,235 +12,316 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   </head>
   <body>
-    <div class="navbar navbar-expand-lg my-navbar fixed-top">
-      <a class="navbar-brand" href="index.html">
-        <img src="images/acm-logo.svg" />
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon">
-            <i class="fas fa-bars"></i>
-        </span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Accueil</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#offer">Prestations</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#a-propos">A propos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#realisations">Réalisations</a>
-          </li>
-          <li class="nav-item" id="nav-item-btn">
-            <a class="nav-link btn btn-outline-green" id="nav-btn" href="contact.html"><i class="fas fa-paper-plane"></i> Demander un devis</a>
-          </li>
-        </ul>
+      <div class="navbar navbar-expand-lg my-navbar fixed-top">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/acm-logo.svg" />
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon">
+              <i class="fas fa-bars"></i>
+          </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#offer">Prestations</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#a-propos">A propos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#realisations">Réalisations</a>
+            </li>
+            <li class="nav-item" id="nav-item-btn">
+              <a class="nav-link btn btn-outline-green" id="nav-btn" href="contact.html"><i class="fas fa-paper-plane"></i> Demander un devis</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="banner">
+          <div class="banner-content">
+              <div class="container">
+                  <div class="row">
+                    <h1>Créatrice de sites web<span class="text-green">.</span></h1>
+                    <h3>Je suis conceptrice-développeuse d'applications web à Bordeaux.</h3>
+                    <a class="btn-all btn-green" href="contact.html"><i class="fas fa-paper-plane"></i> Contactez-moi</a>
+                  </div>
+                  <img id="img-right" src="images/accolade.svg">
+                  <img id="img-left" src="images/dot.svg">
+              </div>
+          </div>
+      </div>
+      <div id="offer" class="section">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-12">
+                      <h2 class="h2-section">Prestations<span class="text-green">.</span></h2>
+                      <p class="p-section">Sites vitrines, sites e-commerce, web-app... De la conception à la mise en ligne, je réalise des sites web sur-mesure, en fonction de votre activité, de votre cible et de votre besoin.</p>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-lg-4">
+                    <div class="my-card offer-card">
+                      <div class="header">
+                        <h3><i class="fas fa-eye"></i>Site vitrine</h3>
+                      </div>
+                      <div class="subtitle">Un site pour <span class="word-highlight hg-green">présenter </span><span class="word-highlight hg-green">votre</span> <span class="word-highlight hg-green">activité</span></div>
+                      <div class="content">
+                        <p>Un site vitrine <strong>présente votre activité, produits ou services</strong>. Il a pour objectif de vous apporter une présence en ligne, de travailler <strong>votre image de marque, votre notoriété, ou tout simplement d'informer vos visiteurs.</strong></p>
+                        <br>
+                        <p>Son contenu peut-être administrable, ou non, par vos soins en fonction de vos besoins de mise à jour.</p>
+                      </div>
+                      <img class="img-offer-card" src="images/accolade.svg">
+                      <a class="btn-all btn-green" href="contact.html"><i class="fas fa-paper-plane"></i> Demander un devis</a>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 card-container">
+                    <div class="my-card offer-card">
+                      <div class="header">
+                        <h3><i class="fas fa-shopping-cart"></i>Site e-commerce</h3>
+                      </div>
+                      <div class="subtitle">Un site pour <br><span class="word-highlight hg-green">vendre </span><span class="word-highlight hg-green">en</span> <span class="word-highlight hg-green">ligne</span></div>
+                      <div class="content">
+                        <p>Vous avez un <strong>point de vente physique</strong> et souhaitez vendre vos produits en ligne ? Vous souhaitez <strong>démarrer votre activité</strong> de vente de produits ou services en ligne ?</p>
+                        <br>
+                        <p>Optez pour un site e-commerce avec un <strong>système de paiement sécurisé</strong> pour développer votre activité.</p>
+                      </div>
+                      <img class="img-offer-card" src="images/dot.svg">
+                      <a class="btn-all btn-green" href="contact.html"><i class="fas fa-paper-plane"></i> Demander un devis</a>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 card-container">
+                    <div class="my-card offer-card">
+                      <div class="header">
+                        <h3><i class="fas fa-code"></i>Web-app</h3>
+                      </div>
+                      <div class="subtitle">Une application accessible <span class="word-highlight hg-green">depuis votre</span> <span class="word-highlight hg-green">navigateur</span></div>
+                      <div class="content">
+                        <p>Une web-app est une <strong>application accessible directement depuis votre navigateur</strong>. Contrairement à une application "classique", elle ne nécessite pas de téléchargement préalable.</p>
+                        <br>
+                        <p>Système de réservation, logiciel de gestion, géolocalisation, réseau social, <strong>une web-app peut prendre différentes formes et embarquer de multiples fonctionnalités</strong>.</p>
+                      </div>
+                      <img class="img-offer-card-last" src="images/accolade.svg">
+                      <a class="btn-all btn-green" href="contact.html"><i class="fas fa-paper-plane"></i> Demander un devis</a>
+                    </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div id="a-propos" class="section">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-12">
+                      <h2 class="h2-section">A propos<span class="text-green">.</span></h2>
+                      <p class="p-section">Quelques mots sur mon parcours et mes terrains de jeu ! N'hésitez pas à me contacter pour plus d'informations.</p>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-lg-5 col-md-6 col-sm-12">
+                    <div class="parcours-container">
+                      <div class="my-card parcours-card">
+                        <div class="parcours-card-title">
+                          <h3><i class="fas fa-quote-left"></i></h3>
+                          <h3><span class="text-highlight highlight-blue">Parcours</span></h3>
+                        </div>
+                        <div class="parcours-card-text">
+                          <p>Animée par la volonté de créer, j'ai choisi de devenir <strong>développeuse web full-stack</strong> après plus de 10 années d'expérience en e-commerce et en marketing digital.</p>
+                          <br>
+                          <p>Mon ambition : <strong>vous accompagner afin de vous permettre d'obtenir une présence online.</strong> Mon expérience passée me permet de mieux comprendre vos enjeux afin de créer des sites adaptés à vos besoins</p>
+                        </div>
+                        <div class="parcours-card-bottom">
+                          <img class="avatar-bordered" alt="avatar-bordered" src="images/anne-cecile-mechin.jpg" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-7 col-md-6 col-sm-12">
+                    <div class="my-card skills-card">
+                      <div class="skills-card-title">
+                        <h3><span class="text-highlight highlight-blue">Front-end</span></h3>
+                      </div>
+                      <div class="skills-card-text">
+                        <div class="skill">
+                          <img src="images/html5-logo.svg" alt="HTML5">
+                          <p>HTML5</p>
+                        </div>
+                        <div class="skill">
+                          <img src="images/css3-logo.svg" alt="CSS3">
+                          <p>CSS</p>
+                        </div>
+                        <div class="skill">
+                          <img src="images/js-logo.svg" alt="JS ES6">
+                          <p>Javascript ES6</p>
+                        </div>
+                        <div class="skill">
+                          <img src="images/bootstrap-logo.svg" alt="Bootstrap">
+                          <p>Bootstrap</p>
+                        </div>
+                      </div>
+                      <div class="skills-card-bottom">
+                        <i class="fas fa-pencil-ruler"></i>
+                      </div>
+                    </div>
+                    <div class="my-card skills-card">
+                      <div class="skills-card-title">
+                        <h3><span class="text-highlight highlight-blue">Back-end</span></h3>
+                      </div>
+                      <div class="skills-card-text">
+                        <div class="skill">
+                          <img src="images/ruby-logo.svg" alt="Ruby">
+                          <p>Ruby</p>
+                        </div>
+                        <div class="skill">
+                          <img src="images/ruby-on-rails-logo.svg" alt="Ruby On Rails">
+                          <p>Ruby On Rails</p>
+                        </div>
+                        <div class="skill">
+                          <img src="images/sql-logo.svg" alt="JS ES6">
+                          <p>SQL</p>
+                        </div>
+                        <div class="skill">
+                          <img src="images/bootstrap-logo.svg" alt="Bootstrap">
+                          <p>Git</p>
+                        </div>
+                        <div class="skill">
+                          <img src="images/github-logo.svg" alt="Bootstrap">
+                          <p>Github</p>
+                        </div>
+                        <div class="skill">
+                          <img src="images/heroku-logo.svg" alt="Bootstrap">
+                          <p>Heroku</p>
+                        </div>
+                      </div>
+                      <div class="skills-card-bottom">
+                        <i class="fas fa-code"></i>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div id="realisations" class="section">
+        <div class="row">
+          <div class="col-lg-12">
+              <h2 class="h2-section">Réalisations<span class="text-green">.</span></h2>
+              <p class="p-section">Sites vitrines, sites e-commerce, web-app... De la conception à la mise en ligne, je réalise des sites web sur-mesure, en fonction de votre activité, de votre cible et de votre besoin.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="container">
+            <div class="gallery" >
+              <figure class="gallery-item gallery-item-1" data-toggle="modal" data-target="#item1Modal">
+                <img src="images/votre-site.jpg" class="gallery-img" alt="Image 1">
+                <div class="overlay">
+                  <i class="fas fa-eye"></i>
+                </div>
+              </figure>
+              <figure class="gallery-item gallery-item-2" data-toggle="modal" data-target="#item2Modal">
+                <img src="images/cabinet-dentaire-b.jpg" class="gallery-img" alt="Image 2">
+                <div class="overlay">
+                  <i class="fas fa-eye"></i>
+                </div>
+              </figure>
+              <figure class="gallery-item gallery-item-3" data-toggle="modal" data-target="#item3Modal">
+                <img src="images/my-music-band.jpg" class="gallery-img" alt="Image 3">
+                <div class="overlay">
+                  <i class="fas fa-eye"></i>
+                </div>
+              </figure>
+              <figure class="gallery-item gallery-item-4" data-toggle="modal" data-target="#item4Modal">
+                <img src="images/adopt-a-villain.jpg" class="gallery-img" alt="Image 4">
+                <div class="overlay">
+                  <i class="fas fa-eye"></i>
+                </div>
+              </figure>
+            </div>
+            <div class="modal fade" id="item1Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h3 class="modal-title" id="exampleModalLabel"><span class="word-highlight hg-green">Votre site</span></h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="subtitle">
+                      Discutons ensemble de votre projet !
+                    </div>
+                    <a class="btn-all btn-green" href="contact.html"><i class="fas fa-paper-plane"></i> Contactez-moi</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal fade" id="item2Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h3 class="modal-title" id="exampleModalLabel"><span class="word-highlight hg-green">Cabinet Dentaire Tivoli Grand-Parc</span></h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="subtitle">
+                      Un site de présentation du cabinet, avec prise de rendez-vous.
+                    </div>
+                    <p>
+                      Ce site a été conçu dans le respect des contraintes et règlementations imposées par le Conseil de l'Ordre des Chirurgiens Dentistes. Il a pour vocation d'informer les patients sur le cabinet dentaire et de leur permettre de prendre rendez-vous en ligne via Doctolib.
+                    </p>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <div class="modal fade" id="item3Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h3 class="modal-title" id="exampleModalLabel"><span class="word-highlight hg-green">MyMusicBand</span></h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="subtitle">
+                      Une web-app pour jouer de la musique en groupe, à distance.
+                    </div>
+                    <p>
+                      A destination des musiciens amateurs, MyMusicBand est une web-app Ruby on Rails développée en équipe, qui leur permet de jouer en groupe. Rejoignez votre groupe en ligne, importez vos partitions, enregistrez vos pistes et mixez le tout!
+                    </p>
+                    <a class="btn-all btn-green" href="https://youtu.be/SJ3Zk3P9iX0?t=1398" target="_blank"><i class="fab fa-youtube"></i> Voir la vidéo de démo</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal fade" id="item4Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h3 class="modal-title" id="exampleModalLabel"><span class="word-highlight hg-green">Adopt a villain</span></h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="subtitle">
+                      Un service de réservation de "méchants" de films ou dessins animés pour toutes les occasions.
+                    </div>
+                    <p>
+                      Ce site est un projet réalisé en groupe, en 4 jours, durant ma formation au Wagon. Il s'agit d'un service de réservation avec géolocalisation développé sur Ruby on Rails.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="banner">
-        <div class="banner-content">
-            <div class="container">
-                <div class="row">
-                  <h1>Créatrice de sites web<span class="text-green">.</span></h1>
-                  <h3>Je suis conceptrice-développeuse d'applications web à Bordeaux.</h3>
-                  <a class="btn-all btn-green" href="contact.html"><i class="fas fa-paper-plane"></i> Contactez-moi</a>
-                </div>
-                <img id="img-right" src="images/accolade.svg">
-                <img id="img-left" src="images/dot.svg">
-            </div>
-        </div>
-    </div>
-    <div id="offer" class="section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2 class="h2-section">Prestations<span class="text-green">.</span></h2>
-                    <p class="p-section">Sites vitrines, sites e-commerce, web-app... De la conception à la mise en ligne, je réalise des sites web sur-mesure, en fonction de votre activité, de votre cible et de votre besoin.</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4">
-                  <div class="my-card offer-card">
-                    <div class="header">
-                      <h3><i class="fas fa-eye"></i>Site vitrine</h3>
-                    </div>
-                    <div class="subtitle">Un site pour <span class="word-highlight hg-green">présenter </span><span class="word-highlight hg-green">votre</span> <span class="word-highlight hg-green">activité</span></div>
-                    <div class="content">
-                      <p>Un site vitrine <strong>présente votre activité, produits ou services</strong>. Il a pour objectif de vous apporter une présence en ligne, de travailler <strong>votre image de marque, votre notoriété, ou tout simplement d'informer vos visiteurs.</strong></p>
-                      <br>
-                      <p>Son contenu peut-être administrable, ou non, par vos soins en fonction de vos besoins de mise à jour.</p>
-                    </div>
-                    <img class="img-offer-card" src="images/accolade.svg">
-                    <a class="btn-all btn-green" href="contact.html"><i class="fas fa-paper-plane"></i> Demander un devis</a>
-                  </div>
-                </div>
-                <div class="col-lg-4 card-container">
-                  <div class="my-card offer-card">
-                    <div class="header">
-                      <h3><i class="fas fa-shopping-cart"></i>Site e-commerce</h3>
-                    </div>
-                    <div class="subtitle">Un site pour <br><span class="word-highlight hg-green">vendre </span><span class="word-highlight hg-green">en</span> <span class="word-highlight hg-green">ligne</span></div>
-                    <div class="content">
-                      <p>Vous avez un <strong>point de vente physique</strong> et souhaitez vendre vos produits en ligne ? Vous souhaitez <strong>démarrer votre activité</strong> de vente de produits ou services en ligne ?</p>
-                      <br>
-                      <p>Optez pour un site e-commerce avec un <strong>système de paiement sécurisé</strong> pour développer votre activité.</p>
-                    </div>
-                    <img class="img-offer-card" src="images/dot.svg">
-                    <a class="btn-all btn-green" href="contact.html"><i class="fas fa-paper-plane"></i> Demander un devis</a>
-                  </div>
-                </div>
-                <div class="col-lg-4 card-container">
-                  <div class="my-card offer-card">
-                    <div class="header">
-                      <h3><i class="fas fa-code"></i>Web-app</h3>
-                    </div>
-                    <div class="subtitle">Une application accessible <span class="word-highlight hg-green">depuis votre</span> <span class="word-highlight hg-green">navigateur</span></div>
-                    <div class="content">
-                      <p>Une web-app est une <strong>application accessible directement depuis votre navigateur</strong>. Contrairement à une application "classique", elle ne nécessite pas de téléchargement préalable.</p>
-                      <br>
-                      <p>Système de réservation, logiciel de gestion, géolocalisation, réseau social, <strong>une web-app peut prendre différentes formes et embarquer de multiples fonctionnalités</strong>.</p>
-                    </div>
-                    <img class="img-offer-card-last" src="images/accolade.svg">
-                    <a class="btn-all btn-green" href="contact.html"><i class="fas fa-paper-plane"></i> Demander un devis</a>
-                  </div>
-                </div>
-                <div class="col-lg-4">
-
-                </div>
-                <div class="col-lg-4">
-
-                </div>
-            </div>
-        </div>
-    </div>
-    <div id="a-propos" class="section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2 class="h2-section">A propos<span class="text-green">.</span></h2>
-                    <p class="p-section">Quelques mots sur mon parcours et mes terrains de jeu ! N'hésitez pas à me contacter pour plus d'informations.</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-5 col-md-6 col-sm-12">
-                  <div class="parcours-container">
-                    <div class="my-card parcours-card">
-                      <div class="parcours-card-title">
-                        <h3><i class="fas fa-quote-left"></i></h3>
-                        <h3><span class="text-highlight highlight-blue">Parcours</span></h3>
-                      </div>
-                      <div class="parcours-card-text">
-                        <p>Animée par la volonté de créer, j'ai choisi de devenir <strong>développeuse web full-stack</strong> après plus de 10 années d'expérience en e-commerce et en marketing digital.</p>
-                        <br>
-                        <p>Mon ambition : <strong>vous accompagner afin de vous permettre d'obtenir une présence online.</strong> Mon expérience passée me permet de mieux comprendre vos enjeux afin de créer des sites adaptés à vos besoins</p>
-                      </div>
-                      <div class="parcours-card-bottom">
-                        <img class="avatar-bordered" alt="avatar-bordered" src="images/anne-cecile-mechin.jpeg" />
-                      </div>
-                    </div>
-
-                  </div>
-
-                </div>
-                <div class="col-lg-7 col-md-6 col-sm-12">
-                  <div class="my-card skills-card">
-                    <div class="skills-card-title">
-                      <h3><span class="text-highlight highlight-blue">Front-end</span></h3>
-                    </div>
-                    <div class="skills-card-text">
-                      <div class="skill">
-                        <img src="images/html5-logo.svg" alt="HTML5">
-                        <p>HTML5</p>
-                      </div>
-                      <div class="skill">
-                        <img src="images/css3-logo.svg" alt="CSS3">
-                        <p>CSS</p>
-                      </div>
-                      <div class="skill">
-                        <img src="images/js-logo.svg" alt="JS ES6">
-                        <p>Javascript ES6</p>
-                      </div>
-                      <div class="skill">
-                        <img src="images/bootstrap-logo.svg" alt="Bootstrap">
-                        <p>Bootstrap</p>
-                      </div>
-                    </div>
-                    <div class="skills-card-bottom">
-                      <i class="fas fa-pencil-ruler"></i>
-                    </div>
-                  </div>
-                  <div class="my-card skills-card">
-                    <div class="skills-card-title">
-                      <h3><span class="text-highlight highlight-blue">Back-end</span></h3>
-                    </div>
-                    <div class="skills-card-text">
-                      <div class="skill">
-                        <img src="images/ruby-logo.svg" alt="Ruby">
-                        <p>Ruby</p>
-                      </div>
-                      <div class="skill">
-                        <img src="images/ruby-on-rails-logo.svg" alt="Ruby On Rails">
-                        <p>Ruby On Rails</p>
-                      </div>
-                      <div class="skill">
-                        <img src="images/sql-logo.svg" alt="JS ES6">
-                        <p>SQL</p>
-                      </div>
-                      <div class="skill">
-                        <img src="images/bootstrap-logo.svg" alt="Bootstrap">
-                        <p>Git</p>
-                      </div>
-                      <div class="skill">
-                        <img src="images/github-logo.svg" alt="Bootstrap">
-                        <p>Github</p>
-                      </div>
-                      <div class="skill">
-                        <img src="images/heroku-logo.svg" alt="Bootstrap">
-                        <p>Heroku</p>
-                      </div>
-                    </div>
-                    <div class="skills-card-bottom">
-                      <i class="fas fa-code"></i>
-                    </div>
-                  </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div id="realisations" class="section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                      <h2 class="h2-section">Réalisations<span class="text-green">.</span></h2>
-                    </div>
-                </div>
-                <div class="row">
-                  <div class="col-lg-6">
-                    <h3><span class="word-highlight hg-green">MyMusicBand</span></h3>
-                    <h4>Une web-app pour jouer de la musique en groupe, à distance.</h4>
-                    <p>A destination des musiciens amateurs, MyMusicBand est une web-app Ruby on Rails qui leur permet de jouer en groupe. Rejoignez votre groupe en ligne, importez vos partitions, enregistrez vos pistes et mixez le tout!</p>
-                  </div>
-                  <div class="col-lg-6">
-                    <div class="responsive-video">
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/SJ3Zk3P9iX0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-lg-6">
-                    <h3><span class="word-highlight hg-green">Adopt a villain</span></h3>
-                    <h4>Un service de réservation de "méchants" de films ou dessins animés pour toutes les occasions.</h4>
-                    <p>Ce site est un projet réalisé en groupe, en 4 jours, durant ma formation au Wagon. Il s'agit d'un service de réservation avec géolocalisation développé sur Ruby on Rails</p>
-                  </div>
-                  <div class="col-lg-6">
-                    <img src="images/adopt-a-villain.png" alt="Adopt a villain">
-                  </div>
-                </div>
-            </div>
     </div>
     <div class="footer">
       <div class="footer-links">
