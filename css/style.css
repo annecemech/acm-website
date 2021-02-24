@@ -7,7 +7,7 @@
 @import url("components/card.css");
 @import url("components/section.css");
 @import url("components/footer.css");
-@import url("components/tabs.css");
+@import url("components/gallery.css");
 @import url("components/cookies.css");
 @import url("components/formulaire.css");
 
@@ -65,9 +65,7 @@ h2 {
 h3 {
   font-family: var(--header-font);
   font-size: 1.5rem !important;
-  font-weight: 300 !important;
-  color: var(--violet);
-  letter-spacing: 1px;
+  color: var(--dark-blue);
 }
 
 p {

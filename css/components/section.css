@@ -35,12 +35,6 @@
   margin-bottom: 1rem;
 }
 
-.offer-frame {
-  margin-top: -1px;
-  width: 100%;
-  height: 3.3rem;
-  background-color: var(--dark-blue);
-}
 
 /*A propos*/
 
@@ -76,12 +70,6 @@
 
 #realisations h3 {
   font-weight: bold !important;
-}
-
-#realisations .row {
-  display: flex;
-  align-items: center;
-  margin-bottom: 2rem;
 }
 
 #realisations .img-background {
