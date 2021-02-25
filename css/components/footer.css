@@ -1,27 +1,141 @@
 .footer {
-  background: var(--dark-blue);
+  background: #F3F3F3;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 991px) {
+  .footer-links {
+    margin-bottom: 2rem;
+    justify-content: center;
+  }
+
+  .footer-legal {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+
+  .footer-contact {
+    text-align: center;
+  }
+
+  .contact-item {
+    justify-content: center;
+  }
+}
+
+.footer-bg-left {
+  position: absolute;
+  top: 20px;
+  left: -70px;
+  width: 400px;
+  opacity: 0.2;
+  z-index: 0;
+}
+
+.footer-bg-right {
+  position: absolute;
+  top: -20px;
+  right: 70px;
+  width: 80px;
+  opacity: 0.2;
+  z-index: 0;
+}
+
+.footer-top {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 100px;
-  padding: 0px 50px;
-  color: var(--white);
+  width: 100%;
+  padding: 30px 50px 20px 50px;
+  color: rgba(0,0,0,0.3);
+  z-index: 1;
 }
+
 .footer-links {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 }
+
+.footer-links i {
+  font-size: 40px;
+}
+
 .footer-links a {
-  color: var(--white);
-  opacity: 0.4;
+  color: var(--dark-blue);
   text-decoration: none;
-  font-size: 24px;
   padding: 0px 10px;
+  transition: transform 0.3s ease;
 }
 .footer-links a:hover {
-  color: var(--white);
-  opacity: 1;
+  color: var(--dark-blue);
+  opacity: 0.8;
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
 }
-.footer .fa-heart {
-  color: #D23333;
+
+.footer-legal ul {
+  margin: 0;
+  padding-left: 0;
 }
+
+.footer-legal ul li {
+  list-style: none;
+  }
+
+.footer-contact {
+  display: flex;
+  align-items: center;
+}
+
+.footer-contact h5 {
+  margin: 0px;
+}
+
+.footer-contact h6 {
+  margin: 0px;
+}
+
+.contact-title {
+  padding-right: 1rem;
+  border-right: 1px solid rgba(0,0,0,0.2);
+}
+
+.contact-info {
+  margin-left: 1rem;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+}
+
+.contact-item  i {
+  font-size: 16px;
+  margin-right: 0.5rem;
+}
+
+.footer-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.footer-bottom p {
+    display: block;
+    width: 100%;
+    color: rgba(0,0,0,0.3);
+    border-top: 1px solid rgba(0,0,0,0.2);
+    padding: 20px 10px 20px 10px;
+    margin: auto 50px;
+    text-align: center;
+}
+
