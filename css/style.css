@@ -65,7 +65,7 @@ h2 {
 h3 {
   font-family: var(--header-font);
   font-size: 1.5rem !important;
-  color: var(--dark-blue);
+  color: var(--violet);
 }
 
 p {
