@@ -4,12 +4,13 @@
 @import url("components/button.css");
 @import url("components/navbar.css");
 @import url("components/banner.css");
+@import url("components/cookie_banner.css");
 @import url("components/card.css");
 @import url("components/section.css");
 @import url("components/footer.css");
 @import url("components/gallery.css");
-@import url("components/cookies.css");
 @import url("components/formulaire.css");
+
 
 @font-face {
   font-family: 'Kollektif Regular';

@@ -43,6 +43,18 @@
   right: 5%;
   height: 180%;
   z-index: 0;
+  animation: apparition-right 1.5s ease-out;
+}
+
+@keyframes apparition-right {
+  from {
+    opacity: 0;
+    transform: translateX(200px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
 }
 
 .banner #img-left {
@@ -51,6 +63,22 @@
   left: 5%;
   height: 60%;
   z-index: 0;
+  animation: apparition-left 1.5s ease-out;
+
+}
+
+@keyframes apparition-left {
+  from {
+    opacity: 0;
+    transform: translateX(-200px);
+    transform: translateY(200px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+    transform: translateY(0px);
+
+  }
 }
 
 

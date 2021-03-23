@@ -116,3 +116,13 @@ position:absolute;
   background-color: var(--dark-blue);
 }
 
+/*Mentions légales*/
+
+#mentions-legales {
+  padding: 50px 20px;
+}
+
+#mentions-legales h3 {
+  margin-top: 2rem !important;
+}
+
